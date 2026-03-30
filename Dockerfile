@@ -4,8 +4,8 @@ ARG TARGETARCH
 
 RUN apt-get update -qq && apt-get install -qqy wget
 
-ENV CANON_URL="https://gdlp01.c-wss.com/gds/8/0100007658/44/linux-UFRII-drv-v600-m17n-06.tar.gz"
-ENV CANON_SHA256="7714fa6eee1a04e96ec6fbf44d3cfb25a4299db00bff9f765bc48a2528cfc0da"
+ENV CANON_URL="https://gdlp01.c-wss.com/gds/0/0100009240/40/linux-UFRII-drv-v630-m17n-07.tar.gz"
+ENV CANON_SHA256="4ae588d8e4e14b25b74b8f8d2d5bee1e4621c27d2dd2e12ce7203e191693c755"
 
 WORKDIR /tmp
 
